@@ -1,9 +1,9 @@
 import style from './card.module.css'
 
-const Card = ({name, description, src, alt, color}) => {
+const Card = ({name, description , color , src , alt , grid }) => {
     return (
     
-        <div className={`${style.card} ${style[color]}`}>
+        <div className={`${style.card}  ${style[color]} ${style[grid]}`}>
 
             <h2 className={`${style.h2}`}>{name}</h2>
             <p className={`${style.p}`}>{description }</p>

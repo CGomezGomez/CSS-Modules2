@@ -1,9 +1,9 @@
 .card {
     width: 350px;
     height: 250px;
-    border: 2px solid transparent ;
+    border: 5px solid transparent ;
     border-radius: 2%;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
 
 }
@@ -48,3 +48,53 @@
 
 }
 
+.grid {
+
+    grid-column: 1;
+    grid-row: 1;
+    transform: translateY(140px);
+
+}
+
+
+@media (max-width: 1000px) {
+
+	.grid{
+
+        transform: translateY(0px);
+
+	}
+
+}
+
+.grid2 {
+
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.grid3{
+
+    grid-column: 2;
+    grid-row: 2;
+    
+}
+
+.grid4 {
+
+    grid-column: 3;
+    grid-row: 1;
+    transform: translateY(140px)
+
+}
+
+@media (max-width: 1000px) {
+
+	.grid4{
+
+        transform: translateY(0px);
+
+	}
+
+}

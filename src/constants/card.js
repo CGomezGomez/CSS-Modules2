@@ -6,8 +6,9 @@ export const CARD = [
         name:'Supervisor',
 		description :'Monitors activity to identify project roadblocks',
 		src:'/public/images/icon-supervisor.svg',
-		alt:'Supervisor',
-        color:'lightblue'
+		alt:'Supervisorn',
+        color:'lightblue',
+        grid:'grid'
     },
     {
         id: v4(),
@@ -15,7 +16,8 @@ export const CARD = [
 		description :'Scans our talent network to create the optimal team for your project',
 		src:'/public/images/icon-team-builder.svg',
 		alt:'Team',
-        color:'red'
+        color:'red',
+        grid:'grid2'
     },
     {
         id: v4(),
@@ -23,7 +25,8 @@ export const CARD = [
 		description :'Regularly evaluates our talent to ensure quality',
 		src:'/public/images/icon-karma.svg',
 		alt:'Karma',
-        color:'yellow'
+        color:'yellow',
+        grid:'grid3'
     },
     {
         id: v4(),
@@ -31,6 +34,7 @@ export const CARD = [
 		description :'Uses data from past projects to provide better delivery estimates',
 		src:'/public/images/icon-calculator.svg',
 		alt:'Calculator',
-        color:'blue'
+        color:'blue',
+        grid:'grid4'
     },
 ]
