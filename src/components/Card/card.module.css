@@ -29,15 +29,15 @@
 }
 .h2 {
 
-    font-size: 20px;
+    font-size: 1.25rem;
     padding-top: 1rem;
     padding-left: 2rem;
     
 }
 .p {
     
-    font-size: 13px;
-    padding-left: 2rem;
+    font-size: 1rem;
+    padding:0 2rem;
 
 }
 .img {
@@ -50,8 +50,6 @@
 
 .grid {
 
-    grid-column: 1;
-    grid-row: 1;
     transform: translateY(180px);
 
 }
