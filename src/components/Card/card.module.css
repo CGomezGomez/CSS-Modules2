@@ -1,0 +1,50 @@
+.card {
+    width: 350px;
+    height: 250px;
+    border: 2px solid transparent ;
+    border-radius: 2%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+
+}
+.lightblue{
+
+    border-top-color : rgba(68, 211, 210, 1);
+
+}
+.red {
+
+    border-top-color : rgba(234, 84, 84, 1);
+
+}
+.yellow {
+
+    border-top-color : rgba(252, 174, 74, 1);
+
+}
+.blue {
+
+    border-top-color: rgba(84, 158, 242, 1);
+
+}
+.h2 {
+
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    
+}
+.p {
+    
+    font-size: 13px;
+    padding-left: 2rem;
+
+}
+.img {
+
+    float: right;
+    padding-top: 2rem;
+    padding-right: 2em;
+
+}
+
