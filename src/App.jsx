@@ -16,13 +16,7 @@ const App = () => {
 			CARD.map(card=>(
 				<Card
 				key={card.id}
-				src={card.src}
-				alt={card.alt}
-				color={card.color}
-				name={card.name}
-				description ={card.description }
-				grid={card.grid}
-				/>
+				{...card} />
 			))}
 			</div>
 
